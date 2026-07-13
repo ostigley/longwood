@@ -4,7 +4,8 @@
   "description": "Longwood — Wairarapa wedding & conference venue site",
   "private": true,
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "watch": "node --watch-path=content --watch-path=templates --watch-path=scripts scripts/build.js"
   },
   "repository": {
     "type": "git",
