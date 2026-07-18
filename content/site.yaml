@@ -1,0 +1,177 @@
+seo:
+  lang: "en-NZ"
+  title: "Longwood | Wairarapa Wedding & Conference Venue near Martinborough"
+  description: "Longwood is a heritage country-house venue near Martinborough in the Wairarapa — weddings, retreats, small conferences and private stays in vast park-like grounds. Enquire today."
+  canonical: "https://longwood.nz/"
+  themeColor: "#1E272C"
+  ogTitle: "Longwood | Wairarapa Wedding & Conference Venue"
+  ogDescription: "A heritage country-house venue near Martinborough in the Wairarapa — weddings, retreats, small conferences and private stays."
+  ogImage: "https://longwood.nz/assets/social-1200x630.jpg"
+  ogImageWidth: 1200
+  ogImageHeight: 630
+  ogLocale: "en_NZ"
+  twitterTitle: "Longwood | Wairarapa Wedding & Conference Venue"
+  twitterDescription: "A heritage country-house venue near Martinborough — weddings, retreats, conferences and private stays."
+  twitterImage: "https://longwood.nz/assets/social-1200x630.jpg"
+  twitterImageAlt: "Longwood heritage house and gardens, Wairarapa"
+
+business:
+  name: "Longwood"
+  description: "A heritage country-house venue in the South Wairarapa, New Zealand, hosting weddings, small conferences, retreats and private stays."
+  url: "https://longwood.nz/"
+  images:
+    - "social-1200x630.jpg"
+    - "front-elevation.jpg"
+    - "park-grounds.jpg"
+  logo: "apple-touch-icon.png"
+  telephone: "+64-21-441-193"
+  telephoneHref: "tel:+6421441193"
+  telephoneDisplay: "+64 21 441 193"
+  email: "longwood.nz@gmail.com"
+  priceRange: "$$$"
+  address:
+    streetAddress: "78 Longwood Road East"
+    addressLocality: "Featherston"
+    addressRegion: "Wellington"
+    postalCode: "5710"
+    addressCountry: "NZ"
+  geo:
+    latitude: -41.108
+    longitude: 175.352
+  amenities:
+    - "Swimming pool"
+    - "Tennis court"
+    - "Gardens"
+    - "On-site accommodation"
+
+nav:
+  links:
+    - { href: "#house", label: "The House" }
+    - { href: "#grounds", label: "Grounds" }
+    - { href: "#weddings", label: "Weddings" }
+    - { href: "#conferences", label: "Meetings" }
+    - { href: "#region", label: "Region" }
+    - { href: "#gallery", label: "Gallery" }
+  cta: { href: "#enquire", label: "Enquire" }
+
+brand:
+  logoAlt: "Longwood"
+  meta: "WAIRARAPA · EST. 1906"
+
+hero:
+  logoAlt: "Longwood heritage venue, Wairarapa"
+  logoWidth: 780
+  logoHeight: 241
+  heading: "Longwood — Heritage Wedding & Conference Venue, Wairarapa"
+  actions:
+    - { href: "#enquire", label: "Enquire", class: "btn--light" }
+    - { href: "#house", label: "Explore the Estate", class: "btn--outline" }
+
+estateStrip:
+  eyebrow: "A Heritage Country Estate · The Wairarapa"
+  lead: "An English country house set in vast park-like grounds — a rare and romantic setting for weddings, celebrations and private gatherings."
+
+introStrip:
+  eyebrow: "Welcome to Longwood"
+  lead: "Reputedly New Zealand’s largest private home, Longwood welcomes you in the finest English country-house tradition — grand rooms, open fires and gracious hospitality, wrapped in gardens a century in the making."
+
+house:
+  kicker: "The House"
+  heading: "One of the country’s grandest homes"
+  paragraphs:
+    - "Built in 1906 by architect William Gray Young and named after Napoleon’s house of exile on St Helena, Longwood is English-asymmetrical in the manner of Lutyens, with a gracious neo-Georgian interior of grand staircases, ornate ceilings and fine wood panelling."
+    - "Four large ensuite bedrooms wait upstairs with canopied beds, antique furnishings and open fires. By evening, savour dinner in the glorious dining room, the library, or the loggia."
+  stats:
+    - { value: "40+", label: "Rooms" }
+    - { value: "1906", label: "Built" }
+    - { value: "Grade 1", label: "Heritage NZ" }
+  tiles:
+    - { tileClass: "tile tile--col-1-span-2", src: "front-elevation.jpg", alt: "Longwood — front elevation" }
+    - { tileClass: "tile", src: "dining-room.jpg", alt: "The dining room", lazy: true }
+    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "A canopied bedroom", lazy: true, focal: 62 }
+
+grounds:
+  kicker: "The Grounds"
+  heading: "Vast lawns, venerable trees, quiet corners"
+  paragraph: "Wander park-like grounds shaded by venerable English trees, retire to the Sunken Garden with a book, or take to the lawn for tennis, croquet and boules. A swimming pool, tennis court and the estate’s historic stables sit among grounds and outbuildings that carry Heritage New Zealand’s highest status."
+  features:
+    - "Sunken Garden"
+    - "Tennis & croquet lawn"
+    - "Swimming pool"
+    - "Historic stables & courtyard"
+  tiles:
+    - { tileClass: "tile tile--col-1-span-2", src: "park-grounds.jpg", alt: "Park-like grounds", lazy: true, focal: 75 }
+    - { tileClass: "tile", src: "sunken-garden.jpg", alt: "The Sunken Garden", lazy: true }
+    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "Lawns & English trees", lazy: true }
+
+weddings:
+  kicker: "Weddings & Functions"
+  heading: "A setting made for celebrations"
+  lead: "Exchange vows on the lawn beneath century-old trees, dine under ornate ceilings, and host your guests across the estate’s rooms and cottages. Every gathering at Longwood is arranged with care and a little old-world grace."
+  cards:
+    - { num: "01", title: "Garden ceremonies", text: "Lawn and marquee ceremonies among the gardens and heritage trees." }
+    - { num: "02", title: "Receptions & dining", text: "Private dinners in the dining room, library and loggia." }
+    - { num: "03", title: "Stay the weekend", text: "On-site accommodation for your closest guests in the house and cottages." }
+    - { num: "04", title: "Bespoke, by arrangement", text: "Functions, retreats and private occasions, tailored to you." }
+  cta: { href: "#enquire", label: "Enquire about your day" }
+  ctaNote: "Tariffs available on request"
+
+conferences:
+  kicker: "Meetings & Retreats"
+  heading: "A considered setting for small conferences"
+  paragraphs:
+    - "Trade the boardroom for a heritage country house an hour from Wellington. Longwood lends itself to board meetings, strategy days and creative retreats — the panelled rooms make for focused sessions, while the gardens, loggia and open fires draw people together between them."
+    - "Take the estate exclusively for the day or stay the night: with on-site accommodation, catering by arrangement and Martinborough’s wineries at the gate, a small conference here feels a world away from the office."
+  features:
+    - "Boardroom & breakout rooms"
+    - "Whole-estate exclusive use"
+    - "On-site accommodation"
+    - "Catering & garden breaks"
+  tile: { tileClass: "tile tile--h-conf", src: "meeting-room.jpg", alt: "The panelled room set for a meeting", lazy: true }
+  cta: { href: "#enquire", label: "Enquire about a retreat" }
+
+region:
+  kicker: "The Region"
+  heading: "The heart of the South Wairarapa"
+  paragraph: "Longwood lies a little over an hour from Wellington and minutes from Martinborough — a region renowned for world-class Pinot Noir, boutique wineries, gourmet food and a vibrant arts scene. Beyond the vines are wild coastlines, the Putangirua Pinnacles and the Cape Palliser seal colony."
+  stats:
+    - { value: "1 hr", label: "From Wellington" }
+    - { value: "10 min", label: "To Martinborough" }
+    - { value: "20+", label: "Boutique wineries" }
+    - { value: "Coast", label: "Pinnacles & seals" }
+
+gallery:
+  kicker: "Gallery"
+  heading: "A closer look"
+  tiles:
+    - { tileClass: "tile tile--2x2", src: "front-elevation.jpg", alt: "The estate & gardens", lazy: true }
+    - { tileClass: "tile", src: "dining-room.jpg", alt: "Interior detail", lazy: true }
+    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "A guest room", lazy: true, focal: 62 }
+    - { tileClass: "tile tile--span-2", src: "park-grounds.jpg", alt: "On the lawn", lazy: true }
+    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "The gardens from above", lazy: true }
+    - { tileClass: "tile", src: "sunken-garden.jpg", alt: "The Sunken Garden", lazy: true }
+    - { tileClass: "tile tile--row-span-2", src: "sunken-garden-pool.jpg", alt: "The pool & garden pavilion", lazy: true }
+    - { tileClass: "tile", src: "drawing-room.jpg", alt: "The drawing room", lazy: true }
+    - { tileClass: "tile", src: "meeting-room.jpg", alt: "The panelled room", lazy: true }
+    - { tileClass: "tile tile--span-2", src: "loggia.jpg", alt: "The loggia", lazy: true }
+
+enquire:
+  kicker: "Enquire"
+  heading: "Plan your visit"
+  lead: "We would love to hear about your wedding, function or stay. Longwood is open to visitors by appointment, and tariffs are available on request."
+  host: "Marguerite Tait-Jamieson"
+  addressLines:
+    - "78 Longwood Road East, Featherston"
+    - "South Wairarapa, New Zealand"
+  note: "Visitors by appointment only"
+
+footer:
+  meta: "WAIRARAPA · NEW ZEALAND · EST. 1906"
+  links:
+    - { href: "#house", label: "The House" }
+    - { href: "#weddings", label: "Weddings" }
+    - { href: "#conferences", label: "Meetings" }
+    - { href: "#gallery", label: "Gallery" }
+    - { href: "#enquire", label: "Enquire" }
+  bottomLeft: "Heritage New Zealand listed · Visitors by appointment only"
+  copyright: "© 2026 Longwood Country Estate"
