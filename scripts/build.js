@@ -63,10 +63,17 @@ function registerPartials() {
   }
 }
 
+function registerHelpers() {
+  Handlebars.registerHelper('basename', (filename) => {
+    return path.basename(filename, path.extname(filename));
+  });
+}
+
 function build() {
   const data = yaml.load(fs.readFileSync(path.join(ROOT, 'content', 'site.yaml'), 'utf8'));
 
   registerPartials();
+  registerHelpers();
   const template = Handlebars.compile(fs.readFileSync(path.join(ROOT, 'templates', 'page.hbs'), 'utf8'));
   const html = template({ ...data, ldJson: buildLdJson(data.business) });
 
