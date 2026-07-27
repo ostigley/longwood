@@ -200,8 +200,28 @@
     </div>
   </section>
 
+  <!-- ============ Stories ============ -->
+  <section id="stories" class="section section--paper">
+    <div class="container">
+      <div class="region__intro">
+        <p class="kicker">{{stories.kicker}}</p>
+        <h2 class="heading-xl">{{stories.heading}}</h2>
+        <p class="body-text body-text--region">{{stories.paragraph}}</p>
+      </div>
+      <div class="stories-grid">
+        {{#each stories.stories}}
+        <article class="story">
+          <h3 class="story__heading">{{heading}}</h3>
+          <p class="story__text">{{content}}</p>
+          <a href="{{link}}" class="story__link">{{linktext}}</a>
+        </article>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
   <!-- ============ ENQUIRE / CONTACT ============ -->
-  <section id="enquire" class="section section--paper">
+  <section id="enquire" class="section section--paper2">
     <div class="enquire__wrap">
       <div>
         <p class="kicker">{{enquire.kicker}}</p>
