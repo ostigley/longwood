@@ -144,16 +144,31 @@ gallery:
   kicker: "Gallery"
   heading: "A closer look"
   tiles:
-    - { tileClass: "tile tile--2x2", src: "front-elevation.jpg", alt: "The estate & gardens", lazy: true }
+    - { tileClass: "tile", src: "front-elevation.jpg", alt: "The estate & gardens", lazy: true }
+    - { tileClass: "tile", src: "longwood-hero.jpg", alt: "The estate & gardens", lazy: true }
+    - { tileClass: "tile", src: "pond.jpg", alt: "The pond", lazy: true }
+    - { tileClass: "tile", src: "park-grounds.jpg", alt: "On the lawn", lazy: true }
+    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "The maze garden", lazy: true }
+    - { tileClass: "tile", src: "arieal-view.jpg", alt: "Arieal view", lazy: true }
+    - { tileClass: "tile", src: "napoleons-oak.jpg", alt: "Napolean's oak tree", lazy: true }
     - { tileClass: "tile", src: "dining-room.jpg", alt: "Interior detail", lazy: true }
     - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "A guest room", lazy: true, focal: 62 }
-    - { tileClass: "tile tile--span-2", src: "park-grounds.jpg", alt: "On the lawn", lazy: true }
-    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "The gardens from above", lazy: true }
-    - { tileClass: "tile", src: "sunken-garden.jpg", alt: "The Sunken Garden", lazy: true }
-    - { tileClass: "tile tile--row-span-2", src: "sunken-garden-pool.jpg", alt: "The pool & garden pavilion", lazy: true }
+    - { tileClass: "tile", src: "the-blue-room-bathroom.jpg", alt: "The green room", lazy: true }
+    - { tileClass: "tile", src: "hallway.jpg", alt: "The entrance way", lazy: true }
+    - { tileClass: "tile", src: "entrance-2.jpg", alt: "The entrance way", lazy: true }
     - { tileClass: "tile", src: "drawing-room.jpg", alt: "The drawing room", lazy: true }
     - { tileClass: "tile", src: "meeting-room.jpg", alt: "The panelled room", lazy: true }
-    - { tileClass: "tile tile--span-2", src: "loggia.jpg", alt: "The loggia", lazy: true }
+    - { tileClass: "tile", src: "loggia.jpg", alt: "The loggia", lazy: true }
+    - { tileClass: "tile", src: "east-loggia.jpg", alt: "The east loggia", lazy: true }
+    - { tileClass: "tile", src: "sunken-garden-pool.jpg", alt: "The pool & garden pavilion", lazy: true }
+    - { tileClass: "tile", src: "pool-west.jpg", alt: "The pool, west view", lazy: true }
+    - { tileClass: "tile", src: "library-1.jpg", alt: "The library", lazy: true }
+    - { tileClass: "tile", src: "library-2.jpg", alt: "The library", lazy: true }
+    - { tileClass: "tile", src: "adam-room.jpg", alt: "The Adam room", lazy: true }
+    - { tileClass: "tile", src: "hats.jpg", alt: "The coat rack", lazy: true }
+    - { tileClass: "tile", src: "kitchen-1.jpg", alt: "The main kitchen and family dining area", lazy: true }
+    - { tileClass: "tile", src: "kitchen-2.jpg", alt: "The family dining aream", lazy: true }
+    - { tileClass: "tile", src: "green-room.jpg", alt: "The green room", lazy: true }
 
 enquire:
   kicker: "Enquire"

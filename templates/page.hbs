@@ -249,5 +249,91 @@
     </div>
   </footer>
 
+  <!-- ============ GALLERY MODAL ============ -->
+  <div class="gallery-modal" id="galleryModal">
+    <button class="gallery-modal__close" aria-label="Close modal">&times;</button>
+    <button class="gallery-modal__nav gallery-modal__nav--prev" aria-label="Previous image">
+      <img src="./assets/arrow-back-icon.svg" alt="">
+    </button>
+    <div class="gallery-modal__content">
+      <img class="gallery-modal__image" src="" alt="">
+    </div>
+    <button class="gallery-modal__nav gallery-modal__nav--next" aria-label="Next image">
+      <img src="./assets/arrow-forward-icon.svg" alt="">
+    </button>
+  </div>
+
+  <script>
+    const modal = document.getElementById('galleryModal');
+    const modalImage = modal.querySelector('.gallery-modal__image');
+    const closeButton = modal.querySelector('.gallery-modal__close');
+    const prevButton = modal.querySelector('.gallery-modal__nav--prev');
+    const nextButton = modal.querySelector('.gallery-modal__nav--next');
+    const galleryTiles = document.querySelectorAll('[data-gallery-image]');
+    let currentImageIndex = -1;
+
+    function openModal(index) {
+      currentImageIndex = index;
+      const tile = galleryTiles[index];
+      const imageSrc = tile.dataset.galleryImage;
+      const imageAlt = tile.dataset.galleryAlt;
+      modalImage.src = imageSrc;
+      modalImage.alt = imageAlt;
+      modal.classList.add('active');
+    }
+
+    function navigateImage(direction) {
+      if (currentImageIndex === -1) return;
+      let nextIndex = currentImageIndex + direction;
+      if (nextIndex < 0) nextIndex = galleryTiles.length - 1;
+      if (nextIndex >= galleryTiles.length) nextIndex = 0;
+      openModal(nextIndex);
+    }
+
+    galleryTiles.forEach((tile, index) => {
+      tile.addEventListener('click', () => {
+        openModal(index);
+      });
+
+      tile.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          tile.click();
+        }
+      });
+    });
+
+    closeButton.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    prevButton.addEventListener('click', () => {
+      navigateImage(-1);
+    });
+
+    nextButton.addEventListener('click', () => {
+      navigateImage(1);
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!modal.classList.contains('active')) return;
+      if (e.key === 'Escape') {
+        modal.classList.remove('active');
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        navigateImage(-1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        navigateImage(1);
+      }
+    });
+  </script>
+
 </body>
 </html>

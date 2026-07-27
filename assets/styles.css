@@ -141,6 +141,23 @@ img { display: block; }
 /* Gallery */
 .gallery__intro { text-align: center; margin-bottom: clamp(40px,5vw,64px); }
 .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); grid-auto-rows: 230px; gap: 14px; }
+.tile[data-gallery-image] { cursor: pointer; transition: transform 0.3s ease, z-index 0s; }
+.tile[data-gallery-image]:hover { transform: scale(1.25); z-index: 10; }
+.tile[data-gallery-image]:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+/* Gallery Modal */
+.gallery-modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; animation: fadeIn 0.3s ease; padding: 40px 20px; }
+.gallery-modal.active { display: flex; align-items: center; justify-content: center; }
+.gallery-modal__content { position: relative; max-width: 90vw; max-height: 90vh; display: flex; }
+.gallery-modal__image { max-width: 100%; max-height: 100%; object-fit: contain; }
+.gallery-modal__close { position: fixed; top: 20px; right: 20px; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 2px; color: white; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s ease; z-index: 1001; }
+.gallery-modal__close:hover { background: rgba(255,255,255,0.2); }
+.gallery-modal__nav { position: fixed; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 2px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s ease; z-index: 1001; }
+.gallery-modal__nav:hover { background: rgba(255,255,255,0.2); }
+.gallery-modal__nav img { width: 24px; height: 24px; }
+.gallery-modal__nav--prev { left: 20px; }
+.gallery-modal__nav--next { right: 20px; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
 /* Enquire */
 .enquire__wrap { max-width: 900px; margin: 0 auto; text-align: center; }
