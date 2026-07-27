@@ -52,11 +52,12 @@ nav:
     - { href: "#conferences", label: "Meetings" }
     - { href: "#region", label: "Region" }
     - { href: "#gallery", label: "Gallery" }
+    - { href: "#stories", label: "Stories" }
   cta: { href: "#enquire", label: "Enquire" }
 
 brand:
   logoAlt: "Longwood"
-  meta: "WAIRARAPA · EST. 1906"
+  meta: "WAIRARAPA · EST. 1850"
 
 hero:
   logoAlt: "Longwood heritage venue, Wairarapa"
@@ -69,7 +70,7 @@ hero:
 
 estateStrip:
   eyebrow: "A Heritage Country Estate · The Wairarapa"
-  lead: "An English country house set in vast park-like grounds — a rare and romantic setting for weddings, celebrations and private gatherings."
+  lead: "An English country house set in vast park-like grounds. Longwood is a rare and romantic setting for weddings, celebrations and private gatherings."
 
 introStrip:
   eyebrow: "Welcome to Longwood"
@@ -79,11 +80,11 @@ house:
   kicker: "The House"
   heading: "One of the country’s grandest homes"
   paragraphs:
-    - "Built in 1906 by architect William Gray Young and named after Napoleon’s house of exile on St Helena, Longwood is English-asymmetrical in the manner of Lutyens, with a gracious neo-Georgian interior of grand staircases, ornate ceilings and fine wood panelling."
-    - "Four large ensuite bedrooms wait upstairs with canopied beds, antique furnishings and open fires. By evening, savour dinner in the glorious dining room, the library, or the loggia."
+    - "Longwood, named after Napoleon’s house of exile on St Helena, was taken up as a sheep station in the 1850's by Henry Bunny who built a small house on the property and established the gardens. In 1906 it burned down and was replaced with a brick house designed by John Swan. This house was subsequently remodelled by William Gray Young in 1921. The style is English-asymmetrical in the manner of Lutyens, with a gracious neo-Georgian interior of grand staircases, ornate ceilings, Adam fireplaces and fine wood panelling."
+    - "Four large ensuite bedrooms wait upstairs with canopied beds, antique furnishings and open fires. Four more bedrooms are available for larger groups or small conferences. Savour dinner in the glorious dining room, relax in the library, or view the stars from the balcony or loggia."
   stats:
-    - { value: "40+", label: "Rooms" }
-    - { value: "1906", label: "Built" }
+    - { value: "8+", label: "Bedrooms" }
+    - { value: "1850's", label: "Built" }
     - { value: "Grade 1", label: "Heritage NZ" }
   tiles:
     - { tileClass: "tile tile--col-1-span-2", src: "front-elevation.jpg", alt: "Longwood — front elevation" }
@@ -107,12 +108,12 @@ grounds:
 weddings:
   kicker: "Weddings & Functions"
   heading: "A setting made for celebrations"
-  lead: "Exchange vows on the lawn beneath century-old trees, dine under ornate ceilings, and host your guests across the estate’s rooms and cottages. Every gathering at Longwood is arranged with care and a little old-world grace."
+  lead: "Exchange vows on the lawn beneath century-old trees, dine under ornate ceilings, and host your guests across the estate’s rooms. Every gathering at Longwood is arranged with care and a little old-world grace."
   cards:
-    - { num: "01", title: "Garden ceremonies", text: "Lawn and marquee ceremonies among the gardens and heritage trees." }
-    - { num: "02", title: "Receptions & dining", text: "Private dinners in the dining room, library and loggia." }
-    - { num: "03", title: "Stay the weekend", text: "On-site accommodation for your closest guests in the house and cottages." }
-    - { num: "04", title: "Bespoke, by arrangement", text: "Functions, retreats and private occasions, tailored to you." }
+    - { title: "Garden ceremonies", text: "Lawn and marquee ceremonies among the gardens and heritage trees." }
+    - { title: "Receptions & dining", text: "Private dinners in the dining room, library and loggia." }
+    - { title: "Stay the weekend", text: "On-site accommodation for your closest guests in the house." }
+    - { title: "Bespoke, by arrangement", text: "Functions, retreats and private occasions, tailored to you." }
   cta: { href: "#enquire", label: "Enquire about your day" }
   ctaNote: "Tariffs available on request"
 
@@ -120,8 +121,8 @@ conferences:
   kicker: "Meetings & Retreats"
   heading: "A considered setting for small conferences"
   paragraphs:
-    - "Trade the boardroom for a heritage country house an hour from Wellington. Longwood lends itself to board meetings, strategy days and creative retreats — the panelled rooms make for focused sessions, while the gardens, loggia and open fires draw people together between them."
-    - "Take the estate exclusively for the day or stay the night: with on-site accommodation, catering by arrangement and Martinborough’s wineries at the gate, a small conference here feels a world away from the office."
+    - "Trade the boardroom for a heritage country house an hour from Wellington. Longwood lends itself to board meetings, strategy days and creative retreats — the panelled rooms make for focused sessions, while the gardens, loggia and open fires draw people together."
+    - "Take the estate exclusively for the day or stay the night: with on-site accommodation, wholesome and creative catering and Martinborough’s wineries at the gate, a small conference here feels a world away from the office."
   features:
     - "Boardroom & breakout rooms"
     - "Whole-estate exclusive use"
@@ -133,10 +134,10 @@ conferences:
 region:
   kicker: "The Region"
   heading: "The heart of the South Wairarapa"
-  paragraph: "Longwood lies a little over an hour from Wellington and minutes from Martinborough — a region renowned for world-class Pinot Noir, boutique wineries, gourmet food and a vibrant arts scene. Beyond the vines are wild coastlines, the Putangirua Pinnacles and the Cape Palliser seal colony."
+  paragraph: "Longwood lies a little over an hour from Wellington and minutes from Martinborough and Greytown. Martinborough is 15 minutes, Greytown is 8 minutes. The South Wairarapa is a region renowned for world-class Pinot Noir, boutique wineries, gourmet food, excellent shopping and a vibrant arts scene. Beyond the vines are wild coastlines, the Putangirua Pinnacles and the Cape Palliser seal colony."
   stats:
     - { value: "1 hr", label: "From Wellington" }
-    - { value: "10 min", label: "To Martinborough" }
+    - { value: "15 min", label: "To Martinborough" }
     - { value: "20+", label: "Boutique wineries" }
     - { value: "Coast", label: "Pinnacles & seals" }
 
@@ -170,6 +171,18 @@ gallery:
     - { tileClass: "tile", src: "kitchen-2.jpg", alt: "The family dining aream", lazy: true }
     - { tileClass: "tile", src: "green-room.jpg", alt: "The green room", lazy: true }
 
+stories:
+  kicker: "Stories"
+  heading: "Stories at Longwood"
+  paragraph: "History, romance, and creativity come together at Longwood, making it an exceptional setting for love stories, weddings, film and photography shoots, and memorable cultural events. Longwood offers an authentic backdrop that inspires lovers, storytellers, and visitors."
+  stories:
+    - { heading: "Filming ‘Time Bandits’", content: "Longwood was the perfect location for Apple TV+ fantasty series. The Taika Waititi, Iain Morris and Jemaine Clement production filmed multiple scenes at the stately home.", link: "https://www.thepost.co.nz/nz-news/350346185/stately-featherston-home-welcomes-time-bandits", linktext: "See more: Stately Featherston home welcomes Time Bandits" }
+    - { heading: "Fleur and Hamish - a love story", content: "Hamish popped the question while the couple were on holiday in the Wairarapa, so it was fitting they returned to the region for their wedding day.", link: "https://weddingswairarapa.co.nz/wairarapa-wedding-blog/classic-romance-wedding-wairarapa", linktext: "See more: Classic romance in the Wairarapa" }
+    - { heading: "Picture perfect", content: "Wedding, lifestyle and commercial photographer David Le says the Wairarapa turned it on for his collaborative photoshoot at Longwood Estate. ", link: "https://davidle.co.nz/blog/davidlesonyscenenzlongwood-rose-and-smith", linktext: "See more: SONY NZ Styled Shoot Wairapapa Longwood x Rose & Smith" }
+    - { heading: "Hosting Featherston Booktown authors", content: "Activist, advocate and writer Denis O’Reilly stayed at Longwood during Booktown. He spent an uplifting weekend in the small provincial town of Featherston.", link: "https://e-tangata.co.nz/reflections/reason-to-feel-hopeful-about-aotearoa/", linktext: "See more: Reason to feel hopeful about Aotearoa" }
+    - { heading: "Memories of a creative childhood", content: "'I think I'm gonna like it here!' - Writer Francesca Emms reflects on growning up at Longwood, her magical, beautiful, historical home.", link: "https://issuu.com/capitalmag/docs/capital_51/60", linktext: "See more: Room to Grown, Capital Magazine" }
+    - { heading: "The history of Longwood", content: "The Homestead has significant architectural merit, designed by Wellington architect John Swan before being modified to a Lutyens-inspired design by noted architect William Gray Young. ", link: "https://www.heritage.org.nz/list-details/7696/Longwood", linktext: "Read more: Historic Place Category 1, Heritage, NZ" }
+
 enquire:
   kicker: "Enquire"
   heading: "Plan your visit"
@@ -181,12 +194,13 @@ enquire:
   note: "Visitors by appointment only"
 
 footer:
-  meta: "WAIRARAPA · NEW ZEALAND · EST. 1906"
+  meta: "WAIRARAPA · NEW ZEALAND · EST. 1850"
   links:
     - { href: "#house", label: "The House" }
     - { href: "#weddings", label: "Weddings" }
     - { href: "#conferences", label: "Meetings" }
     - { href: "#gallery", label: "Gallery" }
+    - { href: "#stories", label: "Stories" }
     - { href: "#enquire", label: "Enquire" }
   bottomLeft: "Heritage New Zealand listed · Visitors by appointment only"
   copyright: "© 2026 Longwood Country Estate"
