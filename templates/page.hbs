@@ -45,7 +45,8 @@
   <header class="site-header">
     <a href="#top" class="brand">
       <img src="./assets/longwood-logo-ink.svg" alt="{{brand.logoAlt}}" class="brand__logo">
-      <span class="brand__meta">{{brand.meta}}</span>
+      <span class="brand__meta">{{brand.metaRegion}}</span>
+      <span class="brand__meta">{{brand.metaCountry}}</span>
     </a>
     <nav class="site-nav">
       {{#each nav.links}}
@@ -73,12 +74,6 @@
         {{/each}}
       </div>
     </div>
-  </section>
-
-  <!-- ============ ESTATE STRIP ============ -->
-  <section class="estate-strip">
-    <p class="estate-strip__eyebrow">{{estateStrip.eyebrow}}</p>
-    <p class="estate-strip__lead">{{estateStrip.lead}}</p>
   </section>
 
   <!-- ============ INTRO STRIP ============ -->
@@ -213,7 +208,7 @@
         <article class="story">
           <h3 class="story__heading">{{heading}}</h3>
           <p class="story__text">{{content}}</p>
-          <a href="{{link}}" class="story__link">{{linktext}}</a>
+          See more: <a href="{{link}}" class="story__link">{{linktext}}</a>
         </article>
         {{/each}}
       </div>

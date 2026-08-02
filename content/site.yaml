@@ -21,7 +21,7 @@ business:
   url: "https://longwood.nz/"
   images:
     - "social-1200x630.jpg"
-    - "front-elevation.jpg"
+    - "longwood-hero.jpg"
     - "park-grounds.jpg"
   logo: "apple-touch-icon.png"
   telephone: "+64-21-441-193"
@@ -57,7 +57,8 @@ nav:
 
 brand:
   logoAlt: "Longwood"
-  meta: "WAIRARAPA · EST. 1850"
+  metaRegion: "WAIRARAPA"
+  metaCountry: "NEW ZEALAND"
 
 hero:
   logoAlt: "Longwood heritage venue, Wairarapa"
@@ -67,10 +68,6 @@ hero:
   actions:
     - { href: "#enquire", label: "Enquire", class: "btn--light" }
     - { href: "#house", label: "Explore the Estate", class: "btn--outline" }
-
-estateStrip:
-  eyebrow: "A Heritage Country Estate · The Wairarapa"
-  lead: "An English country house set in vast park-like grounds. Longwood is a rare and romantic setting for weddings, celebrations and private gatherings."
 
 introStrip:
   eyebrow: "Welcome to Longwood"
@@ -84,12 +81,11 @@ house:
     - "Four large ensuite bedrooms wait upstairs with canopied beds, antique furnishings and open fires. Four more bedrooms are available for larger groups or small conferences. Savour dinner in the glorious dining room, relax in the library, or view the stars from the balcony or loggia."
   stats:
     - { value: "8+", label: "Bedrooms" }
-    - { value: "1850's", label: "Built" }
-    - { value: "Grade 1", label: "Heritage NZ" }
+    - { value: "Category 1", label: "Heritage NZ" }
   tiles:
-    - { tileClass: "tile tile--col-1-span-2", src: "front-elevation.jpg", alt: "Longwood — front elevation" }
+    - { tileClass: "tile tile--col-1-span-2", src: "longwood-hero.jpg", alt: "Longwood — front elevation" }
     - { tileClass: "tile", src: "dining-room.jpg", alt: "The dining room", lazy: true }
-    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "A canopied bedroom", lazy: true, focal: 62 }
+    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "The blue room", lazy: true, focal: 62 }
 
 grounds:
   kicker: "The Grounds"
@@ -128,7 +124,7 @@ conferences:
     - "Whole-estate exclusive use"
     - "On-site accommodation"
     - "Catering & garden breaks"
-  tile: { tileClass: "tile tile--h-conf", src: "meeting-room.jpg", alt: "The panelled room set for a meeting", lazy: true }
+  tile: { tileClass: "tile tile--h-conf", src: "meeting-room.jpg", alt: "Alcove in the Adam room", lazy: true }
   cta: { href: "#enquire", label: "Enquire about a retreat" }
 
 region:
@@ -145,30 +141,27 @@ gallery:
   kicker: "Gallery"
   heading: "A closer look"
   tiles:
-    - { tileClass: "tile", src: "front-elevation.jpg", alt: "The estate & gardens", lazy: true }
     - { tileClass: "tile", src: "longwood-hero.jpg", alt: "The estate & gardens", lazy: true }
     - { tileClass: "tile", src: "pond.jpg", alt: "The pond", lazy: true }
-    - { tileClass: "tile", src: "park-grounds.jpg", alt: "On the lawn", lazy: true }
-    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "The maze garden", lazy: true }
-    - { tileClass: "tile", src: "arieal-view.jpg", alt: "Arieal view", lazy: true }
+    - { tileClass: "tile", src: "park-grounds.jpg", alt: "Heritage trees", lazy: true }
+    - { tileClass: "tile", src: "lawns-aerial.jpg", alt: "The potager", lazy: true }
+    - { tileClass: "tile", src: "aerial-view.jpg", alt: "Aerial view", lazy: true }
     - { tileClass: "tile", src: "napoleons-oak.jpg", alt: "Napolean's oak tree", lazy: true }
-    - { tileClass: "tile", src: "dining-room.jpg", alt: "Interior detail", lazy: true }
-    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "A guest room", lazy: true, focal: 62 }
-    - { tileClass: "tile", src: "the-blue-room-bathroom.jpg", alt: "The green room", lazy: true }
-    - { tileClass: "tile", src: "hallway.jpg", alt: "The entrance way", lazy: true }
-    - { tileClass: "tile", src: "entrance-2.jpg", alt: "The entrance way", lazy: true }
-    - { tileClass: "tile", src: "drawing-room.jpg", alt: "The drawing room", lazy: true }
-    - { tileClass: "tile", src: "meeting-room.jpg", alt: "The panelled room", lazy: true }
+    - { tileClass: "tile", src: "dining-room.jpg", alt: "Dining room", lazy: true }
+    - { tileClass: "tile", src: "canopied-bedroom.jpg", alt: "The blue room", lazy: true, focal: 62 }
+    - { tileClass: "tile", src: "the-blue-room-bathroom.jpg", alt: "Blue room's bathroom", lazy: true }
+    - { tileClass: "tile", src: "hallway.jpg", alt: "The entrance hall", lazy: true }
+    - { tileClass: "tile", src: "entrance-2.jpg", alt: "Front door", lazy: true }
+    - { tileClass: "tile", src: "drawing-room.jpg", alt: "The sitting hall", lazy: true }
+    - { tileClass: "tile", src: "meeting-room.jpg", alt: "Alcove in the Adam room", lazy: true }
     - { tileClass: "tile", src: "loggia.jpg", alt: "The loggia", lazy: true }
     - { tileClass: "tile", src: "east-loggia.jpg", alt: "The east loggia", lazy: true }
-    - { tileClass: "tile", src: "sunken-garden-pool.jpg", alt: "The pool & garden pavilion", lazy: true }
-    - { tileClass: "tile", src: "pool-west.jpg", alt: "The pool, west view", lazy: true }
+    - { tileClass: "tile", src: "sunken-garden-pool.jpg", alt: "The pool & poolhouse", lazy: true }
+    - { tileClass: "tile", src: "pool-west.jpg", alt: "Looking back from the poolhouse", lazy: true }
     - { tileClass: "tile", src: "library-1.jpg", alt: "The library", lazy: true }
     - { tileClass: "tile", src: "library-2.jpg", alt: "The library", lazy: true }
     - { tileClass: "tile", src: "adam-room.jpg", alt: "The Adam room", lazy: true }
-    - { tileClass: "tile", src: "hats.jpg", alt: "The coat rack", lazy: true }
-    - { tileClass: "tile", src: "kitchen-1.jpg", alt: "The main kitchen and family dining area", lazy: true }
-    - { tileClass: "tile", src: "kitchen-2.jpg", alt: "The family dining aream", lazy: true }
+    - { tileClass: "tile", src: "kitchen-2.jpg", alt: "Country kitchen", lazy: true }
     - { tileClass: "tile", src: "green-room.jpg", alt: "The green room", lazy: true }
 
 stories:
@@ -176,18 +169,18 @@ stories:
   heading: "Stories at Longwood"
   paragraph: "History, romance, and creativity come together at Longwood, making it an exceptional setting for love stories, weddings, film and photography shoots, and memorable cultural events. Longwood offers an authentic backdrop that inspires lovers, storytellers, and visitors."
   stories:
-    - { heading: "Filming ‘Time Bandits’", content: "Longwood was the perfect location for Apple TV+ fantasty series. The Taika Waititi, Iain Morris and Jemaine Clement production filmed multiple scenes at the stately home.", link: "https://www.thepost.co.nz/nz-news/350346185/stately-featherston-home-welcomes-time-bandits", linktext: "See more: Stately Featherston home welcomes Time Bandits" }
-    - { heading: "Fleur and Hamish - a love story", content: "Hamish popped the question while the couple were on holiday in the Wairarapa, so it was fitting they returned to the region for their wedding day.", link: "https://weddingswairarapa.co.nz/wairarapa-wedding-blog/classic-romance-wedding-wairarapa", linktext: "See more: Classic romance in the Wairarapa" }
-    - { heading: "Picture perfect", content: "Wedding, lifestyle and commercial photographer David Le says the Wairarapa turned it on for his collaborative photoshoot at Longwood Estate. ", link: "https://davidle.co.nz/blog/davidlesonyscenenzlongwood-rose-and-smith", linktext: "See more: SONY NZ Styled Shoot Wairapapa Longwood x Rose & Smith" }
-    - { heading: "Hosting Featherston Booktown authors", content: "Activist, advocate and writer Denis O’Reilly stayed at Longwood during Booktown. He spent an uplifting weekend in the small provincial town of Featherston.", link: "https://e-tangata.co.nz/reflections/reason-to-feel-hopeful-about-aotearoa/", linktext: "See more: Reason to feel hopeful about Aotearoa" }
-    - { heading: "Memories of a creative childhood", content: "'I think I'm gonna like it here!' - Writer Francesca Emms reflects on growning up at Longwood, her magical, beautiful, historical home.", link: "https://issuu.com/capitalmag/docs/capital_51/60", linktext: "See more: Room to Grown, Capital Magazine" }
+    - { heading: "Filming ‘Time Bandits’", content: "Longwood was the perfect location for the Apple TV+ fantasty series Time Bandits. The Taika Waititi, Iain Morris and Jemaine Clement production filmed multiple scenes at the stately home.", link: "https://www.thepost.co.nz/nz-news/350346185/stately-featherston-home-welcomes-time-bandits", linktext: "Stately Featherston home welcomes Time Bandits" }
+    - { heading: "Fleur and Hamish - a love story", content: "Hamish popped the question while the couple were on holiday in the Wairarapa, so it was fitting they returned to the region for their wedding day.", link: "https://weddingswairarapa.co.nz/wairarapa-wedding-blog/classic-romance-wedding-wairarapa", linktext: "Classic romance in the Wairarapa" }
+    - { heading: "Picture perfect", content: "Wedding, lifestyle and commercial photographer David Le says the Wairarapa turned it on for his collaborative photoshoot at Longwood Estate. ", link: "https://davidle.co.nz/blog/davidlesonyscenenzlongwood-rose-and-smith", linktext: "SONY NZ Styled Shoot Wairapapa Longwood x Rose & Smith" }
+    - { heading: "Hosting Featherston Booktown authors", content: "Activist, advocate and writer Denis O’Reilly stayed at Longwood during Booktown. He spent an uplifting weekend in the small provincial town of Featherston.", link: "https://e-tangata.co.nz/reflections/reason-to-feel-hopeful-about-aotearoa/", linktext: "Reason to feel hopeful about Aotearoa" }
+    - { heading: "Memories of a creative childhood", content: "'I think I'm gonna like it here!' - Writer Francesca Emms reflects on growning up at Longwood, a magical, beautiful, historical home.", link: "https://issuu.com/capitalmag/docs/capital_51/60", linktext: "Room to Grown, Capital Magazine" }
     - { heading: "The history of Longwood", content: "The Homestead has significant architectural merit, designed by Wellington architect John Swan before being modified to a Lutyens-inspired design by noted architect William Gray Young. ", link: "https://www.heritage.org.nz/list-details/7696/Longwood", linktext: "Read more: Historic Place Category 1, Heritage, NZ" }
 
 enquire:
   kicker: "Enquire"
   heading: "Plan your visit"
-  lead: "We would love to hear about your wedding, function or stay. Longwood is open to visitors by appointment, and tariffs are available on request."
-  host: "Marguerite Tait-Jamieson"
+  lead: "We would love to hear about your wedding, function or stay."
+  host: "Marguerite Tait-Jamieson & Garrick Emms"
   addressLines:
     - "78 Longwood Road East, Featherston"
     - "South Wairarapa, New Zealand"
