@@ -97,9 +97,9 @@ img { display: block; }
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
-.brand { display: flex; flex-direction: column; gap: 6px; line-height: 1; text-decoration: none; }
+.brand { display: flex; flex-direction: column; gap: 6px; line-height: 1; text-decoration: none; align-items: center; }
 .brand__logo { height: 26px; width: auto; }
-.brand__meta { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: .42em; color: var(--olive); }
+.brand__meta { font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: .42em; color: var(--olive); text-align: center; }
 .site-nav { display: flex; align-items: center; gap: clamp(14px,2.2vw,34px); flex-wrap: wrap; justify-content: flex-end; }
 .nav__link { font-family: 'Jost', sans-serif; font-size: 13px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink); font-weight: 400; }
 
@@ -158,6 +158,9 @@ img { display: block; }
 .gallery-modal__nav--prev { left: 20px; }
 .gallery-modal__nav--next { right: 20px; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Stories */
+.story__link { text-decoration: underline; }
 
 /* Enquire */
 .enquire__wrap { max-width: 900px; margin: 0 auto; text-align: center; }
