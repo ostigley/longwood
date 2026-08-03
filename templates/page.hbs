@@ -225,7 +225,7 @@
         <div class="contact-grid">
           <div>
             <div class="contact__label">Host</div>
-            <div class="contact__name">{{enquire.host}}</div>
+            <div class="contact__name" id="hostNameTrigger">{{enquire.host}}</div>
           </div>
           <div>
             <div class="contact__label">Address</div>
@@ -264,6 +264,14 @@
     </div>
   </footer>
 
+  <!-- ============ HOST PHOTO MODAL ============ -->
+  <div class="gallery-modal" id="hostPhotoModal">
+    <button class="gallery-modal__close" aria-label="Close modal">&times;</button>
+    <div class="gallery-modal__content">
+      <img class="gallery-modal__image" src="./assets/host-photo.jpg" alt="Host">
+    </div>
+  </div>
+
   <!-- ============ GALLERY MODAL ============ -->
   <div class="gallery-modal" id="galleryModal">
     <button class="gallery-modal__close" aria-label="Close modal">&times;</button>
@@ -279,6 +287,32 @@
   </div>
 
   <script>
+    const hostPhotoModal = document.getElementById('hostPhotoModal');
+    const hostNameTrigger = document.getElementById('hostNameTrigger');
+    const hostPhotoCloseButton = hostPhotoModal.querySelector('.gallery-modal__close');
+
+    hostNameTrigger.style.cursor = 'pointer';
+    hostNameTrigger.addEventListener('click', () => {
+      hostPhotoModal.classList.add('active');
+    });
+
+    hostPhotoCloseButton.addEventListener('click', () => {
+      hostPhotoModal.classList.remove('active');
+    });
+
+    hostPhotoModal.addEventListener('click', (e) => {
+      if (e.target === hostPhotoModal) {
+        hostPhotoModal.classList.remove('active');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!hostPhotoModal.classList.contains('active')) return;
+      if (e.key === 'Escape') {
+        hostPhotoModal.classList.remove('active');
+      }
+    });
+
     const modal = document.getElementById('galleryModal');
     const modalImage = modal.querySelector('.gallery-modal__image');
     const closeButton = modal.querySelector('.gallery-modal__close');
