@@ -168,9 +168,10 @@ img { display: block; }
 .enquire__note { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 13px; letter-spacing: .06em; color: var(--muted); margin: 28px 0 0; }
 .contact-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 36px 44px; text-align: center; justify-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 44px 0; }
 .contact__label { font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--olive); margin-bottom: 6px; }
-.contact__name { font-family: var(--hfont); font-size: 22px; color: var(--ink); }
+.contact__name { font-family: var(--hfont); font-size: 22px; color: var(--ink); cursor: pointer; transition: opacity 0.2s ease; }
+.contact__name:hover { opacity: 0.7; }
 .contact__value { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 16px; line-height: 1.6; color: var(--ink); }
-.contact__link { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 16px; color: var(--ink); }
+.contact__link { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 16px; color: var(--ink); text-decoration: underline; }
 
 /* Footer */
 .site-footer { background: var(--darkbg); color: var(--onDark); padding: clamp(56px,7vw,88px) clamp(24px,6vw,96px) 40px; }
