@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
@@ -55,6 +56,12 @@ function buildLdJson(business) {
   );
 }
 
+function hashedStylesheet() {
+  const css = fs.readFileSync(path.join(ROOT, 'assets', 'styles.css'));
+  const hash = crypto.createHash('sha256').update(css).digest('hex').slice(0, 8);
+  return `styles.${hash}.css`;
+}
+
 function registerPartials() {
   const partialsDir = path.join(ROOT, 'templates', 'partials');
   for (const file of fs.readdirSync(partialsDir)) {
@@ -74,8 +81,9 @@ function build() {
 
   registerPartials();
   registerHelpers();
+  const stylesheet = hashedStylesheet();
   const template = Handlebars.compile(fs.readFileSync(path.join(ROOT, 'templates', 'page.hbs'), 'utf8'));
-  const html = template({ ...data, ldJson: buildLdJson(data.business) });
+  const html = template({ ...data, ldJson: buildLdJson(data.business), stylesheet });
 
   fs.rmSync(DIST, { recursive: true, force: true });
   fs.mkdirSync(DIST, { recursive: true });
@@ -84,6 +92,7 @@ function build() {
   fs.copyFileSync(path.join(ROOT, 'robots.txt'), path.join(DIST, 'robots.txt'));
   fs.copyFileSync(path.join(ROOT, 'sitemap.xml'), path.join(DIST, 'sitemap.xml'));
   fs.cpSync(path.join(ROOT, 'assets'), path.join(DIST, 'assets'), { recursive: true });
+  fs.renameSync(path.join(DIST, 'assets', 'styles.css'), path.join(DIST, 'assets', stylesheet));
   fs.writeFileSync(path.join(DIST, 'CNAME'), `${new URL(data.business.url).hostname}\n`);
   fs.writeFileSync(path.join(DIST, '.nojekyll'), '');
 
