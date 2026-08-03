@@ -118,7 +118,12 @@
       <span class="brand__meta">WAIRARAPA</span>
       <span class="brand__meta">NEW ZEALAND</span>
     </a>
-    <nav class="site-nav">
+    <button class="hamburger" id="hamburgerButton" aria-label="Toggle menu" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+    <nav class="site-nav" id="navMenu">
       <a href="#house" class="nav__link">The House</a>
       <a href="#grounds" class="nav__link">Grounds</a>
       <a href="#weddings" class="nav__link">Weddings</a>
@@ -517,6 +522,23 @@
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         navigateImage(1);
+      }
+    });
+
+    const hamburger = document.getElementById('hamburgerButton');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+    });
+
+    navMenu.addEventListener('click', (e) => {
+      if (e.target.classList.contains('nav__link') || e.target.classList.contains('btn')) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
       }
     });
   </script>
